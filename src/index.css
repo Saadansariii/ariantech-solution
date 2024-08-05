@@ -129,6 +129,44 @@ p{
     width: 100%;
     z-index: 2;
   }
+  
+  .project1{
+    border: 2px solid;
+    background-image: url(./assets/Multicom.png);
+    /* width: 100%; */
+    background-size: cover;
+    height: 450px;
+    width: 350px;
+    z-index: 0;
+    /* border-radius: 20px; */
+  }
+
+  .project2{
+    border: 2px solid;
+    background-image: url(./assets/xcible.png);
+    /* width: 100%; */
+    background-size: cover;
+    height: 450px;
+    /* margin-inline: 2em; */
+    width: 350px;
+    z-index: 0;
+    /* border-radius: 20px; */
+    
+  }
+
+  .project3{
+    border: 2px solid;
+    background-image: url(./assets/Platinum.png);
+    /* width: 100%; */
+    background-size: cover;
+    height: 450px;
+    width: 350px;
+    /* margin-inline: end; */
+    /* margin-left: ; */
+    z-index: 0;
+    /* border-radius: 20px; */
+  }
+  
 
 
 
