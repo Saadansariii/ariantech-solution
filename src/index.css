@@ -28,7 +28,9 @@ span:hover{
 
 .values{
     border: 2px solid #e6e6e6;
-    padding: 1em;
+    padding: 2em;
+    border-radius: 30px;
+
 }
 
 button{
@@ -50,15 +52,13 @@ ul li {
 .max-width{
     max-width: 1200px;
     margin-inline: auto;
+    margin-block: 2em;
 }
 
 p{
     font-weight: 300;
 }
 
-.heading{
-    text-decoration: ;
-}
 
 .heading {
     font-size: 70px;
@@ -67,4 +67,91 @@ p{
     -webkit-text-fill-color: transparent;
 }
 
+.overlay{
+    border: 2px solid red;
+    background-image: url('./assets/herobg.svg');
+
+}
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 9));
+    }
+  }
+  
+  .slider {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+  }
+  
+  .slider .slide-track {
+
+    display: flex;
+    width: calc(250px * 18); /* Twice the original width for seamless looping */
+    animation: scroll 10s linear infinite;
+  }
+  
+  .slider .slide {
+    height: 100px;
+    width: 250px;
+  }
+
+  .bg{
+    background-image: url(./assets/team.jpg);
+    max-width: 1100px;
+    margin-inline: auto;
+    height: 500px;
+    background-size: cover;
+  }
+
+  .hero1{
+    border: 2px solid black;
+    background-image: url(./assets/building.png);
+    width: 400px;
+    max-width: 600px;
+    margin-inline: end;
+    z-index: 0;
+    height: 350px;
+    background-size: cover
+  }
+
+  .hero{
+    border: 2px solid;
+    background-image: url(./assets/heroinner.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    z-index: 2;
+  }
+
+
+
+
+  /* .malhar{
+    background-image: url(./assets/manhar.png);
+    background-size: cover;
+    margin-inline: auto;
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+  }
+
+  .avadhesh{
+    background-image: url(./assets/avadhesh2.png);
+    background-size: cover;
+    margin-inline: auto;
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+  } */
+  
+
+  
+  
   

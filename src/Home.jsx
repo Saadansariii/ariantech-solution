@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "./assets/logo.png";
+
 import heroImg from "./assets/herobg.svg";
 import building from "./assets/building.png";
 import arrow from "./assets/arrow.svg";
@@ -19,6 +19,13 @@ import images1 from "./assets/Multicom.png";
 import images2 from "./assets/xcible.png"
 import images3 from "./assets/Platinum.png"
 import herobg from "./assets/heroinner.jpg";
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faAngleDown);
 
 const Home = () => {
   return (
@@ -26,21 +33,7 @@ const Home = () => {
 
         {/* nav  */}
         <div className=' max'>
-            <div className='flex justify-between margin items-center mx-10 py-[1em] '>
-                <div className=' max-w-[12%]'>
-                    <div className=''><img src={logo} alt="" /></div>
-                </div>
-                <div className=''>
-                    <ul className='border border-[#dcdcdc] px-[2em] py-[.3em] rounded-3xl font-light'>
-                        <li><a href=""><span className='ml-[1.8em]'>home</span></a></li>
-                        <li><a href=""><span className='ml-[1.8em]'>company</span></a></li>
-                        <li><a href=""><span className='ml-[1.8em]'>on demand solutions</span></a></li>
-                        <li><a href=""><span className='ml-[1.8em]'>sarvices</span></a></li>
-                        <li><a href=""><span className='ml-[1.8em]'>career</span></a></li>
-                        <li><a href=""><span className='ml-[1.8em]'>reach us</span></a></li>
-                    </ul>
-                </div>  
-            </div>
+            
         </div>
 
         {/* hero */}
@@ -177,35 +170,57 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='flex'>
-                <div>
-                    <div className='values'>
-                        <h2>Our values</h2>
-                        <a href="">
-                            <h4>Customer-centric philosoph</h4>
+            //////////////////////////////////////////////////
+
+            <div className='flex justify-between my-4'>
+                <div className='max-w-[45%] '>
+                        <h2 className=''>Our values</h2>
+                    <div className='values my-4'>
+                    
+                        <details class="" open>
+                                    
+                            <summary class="flex items-center justify-between">
+                                    Customer-centric Philosophy
+                                    <FontAwesomeIcon icon="angle-down" />
+                            </summary>
+                            <div class="mt-3 ">
                             <p>Our clients are paramount in our mission. We are dedicated to comprehending their distinct requirements, delivering bespoke solutions that align with their objectives, and ensuring their success is our top priority.</p>
-                        </a>
+                            </div>
+                        </details>
                     </div>
-                    <div className='values'>
-                        <h2>Ethical foundation</h2>
-                        <a href="">
-                            <h4>Customer-centric philosoph</h4>
+                    <div className='values my-[2em]'>
+                        <details className='' open>
+                        <summary class="flex items-center justify-between">
+                            {/* <a href="/"> */}
+                                Ethical foundation
+                                <FontAwesomeIcon icon="angle-down" />
+                            {/* </a> */}
+                        </summary>
                             <p>Our clients are paramount in our mission. We are dedicated to comprehending their distinct requirements, delivering bespoke solutions that align with their objectives, and ensuring their success is our top priority.</p>
-                        </a>
+                        </details>      
                     </div>
+
                     <div className='values'>
-                        <h2>Collaborative innovation</h2>
-                        <a href="">
-                            <h4>Customer-centric philosoph</h4>
-                            <p>Our clients are paramount in our mission. We are dedicated to comprehending their distinct requirements, delivering bespoke solutions that align with their objectives, and ensuring their success is our top priority.</p>
-                        </a>
+                        <details>
+                            <summary class="flex items-center justify-between">
+                                {/* <a href="/"> */}
+                                    Collaborative innovation
+                                    <FontAwesomeIcon icon="angle-down" />
+                                {/* </a> */}
+                            </summary>
+
+                                <p>Our clients are paramount in our mission. We are dedicated to comprehending their distinct requirements, delivering bespoke solutions that align with their objectives, and ensuring their success is our top priority.</p>
+                        </details>
                     </div>
+                        
                 </div>
-                <div>
-                    <h2>Forging lasting bonds: Nurturing trust, integrity, and success for both clients and team.</h2>
-                    <p>We uphold the utmost standards, ensuring excellence from conceptualizations to execution across all facets of our operations. Attention to detail, precision, and an unwavering dedication to quality distinguish our work. We cultivate an environment that fosters curiosity and promotes professional growth.</p>
-                    <p>Through our investments in team development, we guarantee they deliver the latest insights and skills to our clients. Mindful of our societal impact, we strive for positivity. From adopting sustainable business practices to actively engaging with communities, we are committed to contributing to the greater good.</p>
-                    <button className='border border-[#524d4d]'>learn more <span className='arrow'></span></button>
+                <div className='max-w-[50%]'>
+                    <h3 className='mb-4'> Forging lasting bonds: Nurturing trust, integrity, and success for both clients and team.</h3>
+                    <div className='flex justify-between items-center'>
+                        <p className='mr-9'>We uphold the utmost standards, ensuring excellence from conceptualizations to execution across all facets of our operations. Attention to detail, precision, and an unwavering dedication to quality distinguish our work. We cultivate an environment that fosters curiosity and promotes professional growth.</p>
+                        <p>Through our investments in team development, we guarantee they deliver the latest insights and skills to our clients. Mindful of our societal impact, we strive for positivity. From adopting sustainable business practices to actively engaging with communities, we are committed to contributing to the greater good.</p>
+                    </div>
+                    <button className='border border-[#524d4d] my-8'>learn more <span className='arrow'></span></button>
                 </div>
             </div>
 
