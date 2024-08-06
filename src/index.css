@@ -68,8 +68,8 @@ p{
 }
 
 .overlay{
-    border: 2px solid red;
-    background-image: url('./assets/herobg.svg');
+    /* border: 2px solid red; */
+    /* background-image: url('./assets/herobg.svg'); */
 
 }
 @keyframes scroll {
@@ -110,7 +110,7 @@ p{
   }
 
   .hero1{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-image: url(./assets/building.png);
     width: 400px;
     max-width: 600px;
@@ -120,18 +120,48 @@ p{
     background-size: cover
   }
 
-  .hero{
-    border: 2px solid;
-    background-image: url(./assets/heroinner.jpg);
-    width: 100%;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    z-index: 2;
+    /* border: 2px solid; */
+    
+    /* z-index: 2; */
+  
+
+  .relative {
+    position: relative;
   }
   
+  .absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .z-0 {
+    z-index: 0;
+  }
+  
+  .z-10 {
+    z-index: 10;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+
+  
+  
   .project1{
-    border: 2px solid;
+    /* border: 2px solid; */
     background-image: url(./assets/Multicom.png);
     /* width: 100%; */
     background-size: cover;
@@ -142,7 +172,7 @@ p{
   }
 
   .project2{
-    border: 2px solid;
+    /* border: 2px solid; */
     background-image: url(./assets/xcible.png);
     /* width: 100%; */
     background-size: cover;
@@ -155,7 +185,7 @@ p{
   }
 
   .project3{
-    border: 2px solid;
+    /* border: 2px solid; */
     background-image: url(./assets/Platinum.png);
     /* width: 100%; */
     background-size: cover;

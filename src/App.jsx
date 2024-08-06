@@ -9,6 +9,7 @@ import Values from './component/Values'
 import Testimonial from './component/Testimonial'
 import Heroimg from './component/Heroimg'
 import OurProject from './component/OurProject'
+import Footer from './component/Footer'
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
       <Values/>
       <Testimonial/>
       <OurProject/>
-    
+      <Footer/>
     </>
   )
 }

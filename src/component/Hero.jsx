@@ -1,9 +1,5 @@
 import React from 'react'
 
-
-
-// library.add(faCircle);
-
 const Hero = () => {
   return (
     <div className='max-width'>
@@ -21,13 +17,13 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='flex justify-between items-center my-[2em] py-[1em] border'>
+            <div className='flex justify-between items-center my-[2em] py-[1em] '>
                 <div className='max-w-[70%]'>
                     <h2>Customised solutions</h2>
                     <p>Beyond project completion, we stand steadfast, offering ongoing support and fine-tuning to meet your evolving needs. Our dedication extends beyond delivery to ensure your continued success.</p>
                 </div>
                 <div>
-                    <button className='button'>explore more <span className='arrow'></span></button>
+                    <button className='border border-gray-300 py-[.5em] px-[1.5em] rounded-3xl'>explore more <span className='arrow'></span></button>
                 </div>
             </div>
         </div>
