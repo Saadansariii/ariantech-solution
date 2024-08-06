@@ -14,7 +14,7 @@ const Heroimg = () => {
             // initial="show"
             // whileInView={"show"}
             // viewport={{once: false , amount:0.7}}
-            className='flex justify-between items-center'>
+            className='flex justify-between items-center my-[5em]'>
                 <div className='leading-normal'>
                 <h4 className='h4 font-light text-sm text-black' ><span className='text-black border border-gray-50 mr-1'><FontAwesomeIcon icon={faCircle} /></span>BEST IN THE INDUSTRY</h4>
                     <div className=''>

@@ -141,6 +141,7 @@ p{
   .hero1{
     /* border: 2px solid black; */
     background-image: url(./assets/building.png);
+    border-radius: 15px;
     width: 400px;
     max-width: 600px;
     margin-inline: end;
@@ -237,7 +238,16 @@ p{
   }
 
 
-
+.collegue{
+  background-image: url(./assets/team.jpg);
+  border-radius: 15px;
+  /* width: 600px; */
+  max-width: 1200px;
+  margin-inline: end;
+  z-index: 0;
+  height: 600px;
+  background-size: cover
+}
   /* .malhar{
     background-image: url(./assets/manhar.png);
     background-size: cover;
