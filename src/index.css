@@ -91,7 +91,7 @@ p{
 
 .heading {
     /* font-size: 70px; */
-    background: -webkit-linear-gradient(#ea4a48, rgb(135, 194, 238));
+    background: linear-gradient(to right ,#ea4a48, rgb(135, 194, 238));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
