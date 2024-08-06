@@ -1,19 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.h1{
+  font-size: 65px;
+  line-height: 80px;
+  font-family: "roboto" , sans-serif;
+  font-weight: 600;
+  /* line-height: normal; */
+}
 
 h2{
+    font-family: 'roboto';
     font-size: 40px;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.h4{
+  font-family: "roboto" , sans-serif;
 }
 
 h3{
+    font-family: "roboto";
     font-size: xx-large;
 }
 
 h4{
+    font-family: 'phophins';
     font-size: 70px;
     color: #de4441;
+}
+
+h5{
+  font-family: 'roboto';
 }
 
 .card{
@@ -34,12 +60,14 @@ span:hover{
 }
 
 button{
+    font-family: "phophins" ;
     border-color :1px solid #524d4d;
     border-radius: 17px;
     padding: .4em 1.3em;
 }
 
 ul li {
+    font-family: "roboto" , sans-serif;
     display: inline;
 }
 
@@ -56,13 +84,14 @@ ul li {
 }
 
 p{
+    font-family: 'roboto';
     font-weight: 300;
 }
 
 
 .heading {
-    font-size: 70px;
-    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    /* font-size: 70px; */
+    background: -webkit-linear-gradient(#ea4a48, rgb(135, 194, 238));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -197,7 +226,15 @@ p{
     /* border-radius: 20px; */
   }
   
+  summary{
+    font-family: "roboto";
+    font-weight: 400;
+    font: bold;
+    font-size: 1.2em;
+    line-height: normal;
 
+
+  }
 
 
 

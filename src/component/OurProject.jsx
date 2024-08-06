@@ -6,8 +6,8 @@ import images3 from "../assets/Platinum.png"
 const OurProject = () => {
   return (
     <div className='max-width my-[2em]'>
-                <div className='w-1/2'>
-                    <h2>Our Projects</h2>
+                <div className='w-1/2 py-6'>
+                    <h2 className='py-4'>Our Projects</h2>
                     <p>Each project we undertake is not just a task; it's an opportunity to innovate, to push boundaries, and to inspire success.</p>
                 </div>
                 <div className='flex justify-between my-[2em]'>
@@ -33,7 +33,7 @@ const OurProject = () => {
                     </div>
                     <div className='project project3 rounded-2xl'>
                         <div className='bg-gradient-to-t from-[#e4a8af]  z-1  h-[423px] w-full opacity-90 rounded-2xl'>
-                            <div className='mx-5 mt-6 bg-gray-100 opacity-50   '>
+                            <div className='mx-5 mt-6 bg-gray-100 opacity-50  rounded-2xl '>
                             <p className='p-[2em] font-light'>Platinum Garage Management System(GMS) is a fully automated cloud-based mobile & responsive web application for garage management with CMS successfully running in UAE.
                             Automobile companies can manage their whole garage system through this system and manage their website also.</p>
                             </div>

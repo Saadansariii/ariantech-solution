@@ -12,7 +12,7 @@ const OurClient = () => {
   return (
     <div className=''>
             <div className='text-center max-width'>
-                <h2>Our Clients</h2>
+                <h2 className='mb-6'>Our Clients</h2>
                 <p>Explore the companies we've collaborated with, showcasing the expertise of our developers, designers, engineers, and strategists in driving business growth & propelling numerous companies to new heights.</p> <p>Here are some of the esteemed organizations we've had the privilege to work with.</p>
             </div>
 

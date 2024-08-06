@@ -22,8 +22,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className='max-w-[600px]'>
-            <div>
-              <h2>Driving business excellence through tailored IT solutions.</h2>
+            <div className=''>
+              <h2 className='py-3'>Driving business excellence through tailored IT solutions.</h2>
               <p>We specialise in providing IT services that drive business growth. Our process reflects dedication to client success, let's collaborate to create something extraordinary.</p>
             </div>
             <div className='my-8'>
