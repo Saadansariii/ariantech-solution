@@ -43,6 +43,7 @@ const Footer = () => {
             <li className='ml-4'><a href="#"><FontAwesomeIcon icon={faLinkedin} /></a></li>
           </ul>
         </div>
+        <div><p className='text-center'>Design & Develope by saad </p></div>
       </div>
     </div>
     // </div>
